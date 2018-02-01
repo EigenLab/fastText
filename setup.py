@@ -49,7 +49,7 @@ ext_modules = [
     Extension(
         str('fasttext_pybind'),
         [
-            str('python/fastText/pybind/fasttext_pybind.cc'),
+            str('python/eigen_fastText/pybind/fasttext_pybind.cc'),
         ] + fasttext_src_cc,
         include_dirs=[
             # Path to pybind11 headers
@@ -167,9 +167,9 @@ setup(
     install_requires=['pybind11>=2.2', "setuptools >= 0.7.0", "numpy"],
     cmdclass={'build_ext': BuildExt},
     packages=[
-        str('fastText'),
-        str('fastText.util'),
-        str('fastText.tests'),
+        str('eigen_fastText'),
+        str('eigen_fastText.util'),
+        str('eigen_fastText.tests'),
     ],
     package_dir={str(''): str('python')},
     zip_safe=False,
