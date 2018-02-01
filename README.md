@@ -1,6 +1,6 @@
 ## 说明
 
-由于fastText只发布了0.8.3的版本，但是有一些问题，所以我fork最新代码下来并将其发布到我们的库中，名称为eigen-fastText，版本为0.8.22。 使用时，将所有fastText的地方替换为_fastText即可。
+由于fastText只发布了0.8.3的版本，但是有一些问题，所以我fork最新代码下来并将其发布到我们的库中，名称为eigen-fastText，版本为0.8.22。 使用时，将所有fastText的地方替换为eigen_fastText即可。
 
 ## Table of contents
 
