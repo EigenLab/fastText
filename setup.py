@@ -139,7 +139,7 @@ def _get_readme():
 
 
 setup(
-    name='fasttext',
+    name='eigen-fasttext',
     version=__version__,
     author='Christian Puhrsch',
     author_email='cpuhrsch@fb.com',
